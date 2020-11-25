@@ -202,24 +202,41 @@ function App() {
               </div>
             </Route>
             <Route path="/contact" exact>
-              <div className="row">
-                <div className="col-md-6">
-                  <textarea className="name-text">Your Name:</textarea>
-                  <textarea className="email-text">Your Email:</textarea>
+              <form>
+                <div className="row">
+                  <div className="col-md-6">
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address:</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                      ></input>
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Name:</label>
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="exampleInputPassword1"
+                      ></input>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className="row">
-                <div className="col-md-12">
-                  <textarea className="message-text">Your Message:</textarea>
+              </form>
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message:</label>
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
                 </div>
-              </div>
-              <div className="row">
-                <div className="col-md-2">
-                  <button className="btn btn-secondary">
-                    Send
-                  </button>
-                </div>
-              </div>
+              </form>
             </Route>
             <Route path="*">
               <Redirect to="/" />
