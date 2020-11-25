@@ -237,6 +237,9 @@ function App() {
                   ></textarea>
                 </div>
               </form>
+              <button type="button" class="btn btn-primary btn-lg">
+                Send Message
+              </button>
             </Route>
             <Route path="*">
               <Redirect to="/" />
