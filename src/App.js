@@ -129,7 +129,7 @@ function App() {
         </Jumbotron>
         <Container>
           <Switch>
-            <Route path="/">
+            <Route path="/" exact>
               <div className="row">
                 <div className="col-md-7">
                   <p>
