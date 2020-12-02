@@ -129,7 +129,7 @@ function App() {
         </Jumbotron>
         <Container>
           <Switch>
-            <Route path="/" exact>
+            <Route path="/">
               <div className="row">
                 <div className="col-md-7">
                   <p>
@@ -171,7 +171,7 @@ function App() {
                 </div>
               </div>
             </Route>
-            <Route path="/portfolio" exact>
+            <Route path="/portfolio">
               <div className="row">
                 {projects.map(({ title, description, links, image }, i) => (
                   <div key={i} className="col-6">
@@ -201,7 +201,7 @@ function App() {
                 ))}
               </div>
             </Route>
-            <Route path="/contact" exact>
+            <Route path="/contact">
               <form>
                 <div className="row">
                   <div className="col-md-6">
