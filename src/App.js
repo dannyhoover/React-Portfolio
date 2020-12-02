@@ -171,7 +171,7 @@ function App() {
                 </div>
               </div>
             </Route>
-            <Route path="/portfolio">
+            <Route path="/portfolio" exact>
               <div className="row">
                 {projects.map(({ title, description, links, image }, i) => (
                   <div key={i} className="col-6">
@@ -201,7 +201,7 @@ function App() {
                 ))}
               </div>
             </Route>
-            <Route path="/contact">
+            <Route path="/contact" exact>
               <form>
                 <div className="row">
                   <div className="col-md-6">
