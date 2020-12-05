@@ -161,6 +161,14 @@ function App() {
                       LinkedIn
                     </a>
                   </p>
+                  <p>
+                    <a
+                      href="https://www.mxadam.com/DHResume.pdf"
+                      target="_blank"
+                    >
+                      Resume
+                    </a>
+                  </p>
                 </div>
                 <div className="col-md-5">
                   <img
