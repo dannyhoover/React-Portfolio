@@ -3,17 +3,25 @@
 }
 
 .name-text {
-    width: 100%;
-    background-color: #698db1;
+  width: 100%;
+  background-color: #698db1;
 }
 
 .email-text {
-    width: 100%;
-    background-color: #698db1;
+  width: 100%;
+  background-color: #698db1;
 }
 
 .message-text {
-    width: 100%;
-    height: 150px;
-    background-color: #698db1;
+  width: 100%;
+  height: 150px;
+  background-color: #698db1;
+}
+
+.col-6 {
+  height: 500px;
+}
+
+.card {
+  height: 500px;
 }

@@ -16,6 +16,7 @@ import Footer from "./components/Footer";
 import "./App.css";
 
 const pathToTitle = new Map([
+  ["/React-Portfolio", "About"],
   ["/", "About"],
   ["/portfolio", "Portfolio"],
   ["/contact", "Contact"],
@@ -66,7 +67,7 @@ const projects = [
   {
     title: "Password Generator",
     description:
-      "Generate a random password! Pick your characters, case, and length.",
+      "Generate a random password! Pick your characters, case, and length.               ",
     links: {
       github: "https://github.com/dannyhoover/Password-Generator",
       deployment: "https://dannyhoover.github.io/Homework3/",
