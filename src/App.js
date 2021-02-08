@@ -173,7 +173,7 @@ function App() {
                 <div className="col-md-5">
                   <img
                     className="img-thumbnail"
-                    src="https://scontent.fhio2-1.fna.fbcdn.net/v/t1.0-9/59818742_1074492842740451_4871043537061281792_n.jpg?_nc_cat=108&ccb=2&_nc_sid=0debeb&_nc_ohc=RnQ0wI9P3-MAX_2lYxX&_nc_ht=scontent.fhio2-1.fna&oh=88deaa313818ef8c28187d0122b89730&oe=5FC218C6"
+                    src="https://scontent.fhio2-1.fna.fbcdn.net/v/t1.0-9/60346112_10219121352135738_9049716716552060928_n.jpg?_nc_cat=103&ccb=2&_nc_sid=8bfeb9&_nc_ohc=xlSf5lfCglUAX9YRNAU&_nc_ht=scontent.fhio2-1.fna&oh=a69fedc83099fa7b6e73859f7e172290&oe=6047D4D0"
                     alt="thumbnail"
                   />
                 </div>
