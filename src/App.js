@@ -104,19 +104,6 @@ const projects = [
       alt: "Handlebars",
     },
   },
-  {
-    title: "Typester",
-    description:
-      "A typing test! User types out a phrase and app saves data regarding mistakes, accuracy, and words per minute.",
-    links: {
-      github: "https://github.com/dannyhoover/Node-Express-Handlebars",
-      deployment: "https://dh-node-express-handlebars.herokuapp.com/",
-    },
-    image: {
-      src: "",
-      alt: "Typester",
-    },
-  },
 ];
 
 function App() {
