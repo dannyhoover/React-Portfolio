@@ -104,6 +104,19 @@ const projects = [
       alt: "Handlebars",
     },
   },
+  {
+    title: "Typester",
+    description:
+      "A typing test! User types out a phrase and app saves data regarding mistakes, accuracy, and words per minute.",
+    links: {
+      github: "https://github.com/dannyhoover/Node-Express-Handlebars",
+      deployment: "https://dh-node-express-handlebars.herokuapp.com/",
+    },
+    image: {
+      src: "",
+      alt: "Typester",
+    },
+  },
 ];
 
 function App() {
@@ -142,13 +155,16 @@ function App() {
                   <p>
                     I have a bachelors degree in Sociology from the University
                     of Oregon, my background is in finance and logistics, and
-                    current events have led me to pursue a career in coding!
+                    current events have led me to pursue a career in coding! I
+                    have experience with HTML5, CSS3, Javascript, JQuery,
+                    Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express,
+                    Handelbars.js and ReactJS.
                   </p>
                   <p>
                     Here you'll find some of my projects resulting from this new
                     endeavor!
                   </p>
-                  <p>My Links:</p>
+                  <p>My Email: dofjrtd@gmail.com</p>
                   <p>
                     <a href="https://github.com/dannyhoover" target="_blank">
                       Github
