@@ -19,7 +19,7 @@ const pathToTitle = new Map([
   ["/React-Portfolio", "About"],
   ["/", "About"],
   ["/portfolio", "Portfolio"],
-  ["/contact", "Contact"],
+  // ["/contact", "Contact"],
 ]);
 
 const projects = [
@@ -121,9 +121,9 @@ function App() {
           <NavLink className="nav-link" to="/portfolio" exact>
             Portfolio
           </NavLink>
-          <NavLink className="nav-link" to="/contact" exact>
+          {/* <NavLink className="nav-link" to="/contact" exact>
             Contact
-          </NavLink>
+          </NavLink> */}
         </Header>
         <Jumbotron className="text-center">
           <h1 className="display-4">{pathToTitle.get(location.pathname)}</h1>
@@ -151,7 +151,7 @@ function App() {
                     Here you'll find some of my projects resulting from this new
                     endeavor!
                   </p>
-                  <p>My Email: dofjrtd@gmail.com</p>
+                  <p>Email: dofjrtd@gmail.com</p>
                   <p>
                     <a href="https://github.com/dannyhoover" target="_blank">
                       Github
@@ -167,7 +167,7 @@ function App() {
                   </p>
                   <p>
                     <a
-                      href="https://www.mxadam.com/DHResume.pdf"
+                      href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e5d1adf6-67a3-4ed6-9814-3c0ae938094a"
                       target="_blank"
                     >
                       Resume
@@ -213,7 +213,7 @@ function App() {
                 ))}
               </div>
             </Route>
-            <Route path="/contact" exact>
+            {/* <Route path="/contact" exact>
               <form>
                 <div className="row">
                   <div className="col-md-6">
@@ -252,7 +252,7 @@ function App() {
               <button type="button" class="btn btn-primary btn-lg">
                 Send Message
               </button>
-            </Route>
+            </Route> */}
             <Route path="*">
               <Redirect to="/" />
             </Route>
