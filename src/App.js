@@ -38,20 +38,6 @@ const projects = [
     },
   },
   {
-    title: "What's in the Pantry?",
-    description:
-      "This was my second group project. My team came up with the idea for an app that helps people come up with recipes from items that they have in their pantry.",
-    links: {
-      github: "https://github.com/dannyhoover/Project-2",
-      deployment: "https://project-2-fsbc.herokuapp.com/",
-    },
-    image: {
-      src:
-        "https://raw.githubusercontent.com/dannyhoover/Project-2/main/public/app-use.jpg",
-      alt: "Recipes",
-    },
-  },
-  {
     title: "Weather App",
     description:
       "This was a homework assignment where I called on the OpenWeather API to display current weather data and display a five day forecast of a city that the user chooses.",
@@ -102,6 +88,20 @@ const projects = [
       src:
         "https://raw.githubusercontent.com/dannyhoover/Node-Express-Handlebars/main/public/assets/app-start.jpg",
       alt: "Handlebars",
+    },
+  },
+  {
+    title: "What's in the Pantry?",
+    description:
+      "This was my second group project. My team came up with the idea for an app that helps people come up with recipes from items that they have in their pantry.",
+    links: {
+      github: "https://github.com/dannyhoover/Project-2",
+      deployment: "https://project-2-fsbc.herokuapp.com/",
+    },
+    image: {
+      src:
+        "https://raw.githubusercontent.com/dannyhoover/Project-2/main/public/app-use.jpg",
+      alt: "Recipes",
     },
   },
 ];
