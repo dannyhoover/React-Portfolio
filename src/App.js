@@ -143,7 +143,7 @@ function App() {
                     I have a bachelors degree in Sociology from the University
                     of Oregon, my background is in finance and logistics, and
                     current events have led me to pursue a career in coding! I
-                    have experience with HTML5, CSS3, Javascript, JQuery,
+                    have experience with HTML5, CSS3, JavaScript, JQuery,
                     Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express,
                     Handelbars.js and ReactJS.
                   </p>
